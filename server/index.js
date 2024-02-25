@@ -2,10 +2,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const routes = require('./routes'); // Import routes
-const connectDB = require('./Database/connect');
+// const connectDB = require('./Database/connect');
 
-require('dotenv').config();
-connectDB(process.env.MONGODB_URL);
+// require('dotenv').config();
+// connectDB(process.env.MONGODB_URL);
 
 const app = express();
 const PORT = 3001;

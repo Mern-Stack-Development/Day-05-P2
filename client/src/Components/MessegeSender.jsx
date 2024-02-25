@@ -19,5 +19,4 @@ const MessageSender = () => {
     </div>
   );
 };
-
 export default MessageSender;
